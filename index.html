@@ -1,11 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="twitter.css">
 </head>
 <body>
-  <h1>Hello world!</h1>
+    <header id="main-header">
+        <div class="content">
+            <nav>
+                <ul>
+                    <li><img src="/home.svg" alt="home"> Home</li>
+                    <li><img src="/notification.svg" alt="Notifications"> Notifications</li>
+                    <li><img src="/messages.svg" alt="Messages"> Messages</li>
+                </ul>
+            </nav>
+            <img src="/twitter.svg" alt="twitterlogo">
+            <div class="side">
+                <input type="text" placeholder="Search on Twitter">
+                <img src="/avatar.svg" alt="avatar">
+                <button>Tweet</button>
+            </div>
+        </div>       
+    </header>   
+    
+    <div class="banner">
+        <h1>TWITTER DE TESTE</h1>
+    </div>
+
+    <div class="bar">
+        <div class="content">
+            <ul>
+                <li>
+                    <span>Tweets</span>
+                    <strong>3931</strong>
+                </li>
+                <li>
+                    <span>Following</span>
+                    <strong>654</strong>
+                </li>
+                <li>
+                    <span>Followers</span>
+                    <strong>387</strong>
+                </li>
+                <li>
+                    <span>Favorites</span>
+                    <strong>265</strong>
+                </li>
+                <li>
+                    <span>Lists</span>
+                    <strong>8</strong>
+                </li>
+                <li>
+                    <span>Moments</span>
+                    <strong>0</strong>
+                </li>
+            </ul>
+    
+            <div class="follow">
+                <button>Follow</button>
+                <img src="/more.svg" alt="morefunctions">
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-content content">
+        <aside class="profile">
+            <img class="avatar" src="/avatar.svg" alt="avarprofile">
+            <h1>Breno Silva</h1>
+            <span>@Brenosilva</span>
+            <p>Estudante de <span class="blue">@engenharia</span> de telecomunicações e entusiasta de <span class="blue"></span>web development</span></p>
+            <ul class="list">
+                <li><img src="/location.svg" alt="location"> Fortaleza, Brazil</li>
+                <li><img src="/link.svg" alt="link"><a class="blue"> exibit.be</a></li>
+                <li><img src="/clock.svg" alt="joined"> Joined April 2020</li>
+                <li><img src="/born.svg" alt="born"> Born the 25th of November 1998</li>
+            </ul>
+
+            <div class="widget followers">
+                <strong><img src="/user.svg" alt="userfollowers"> 73 followers that you know</strong>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="widget images">
+                <strong><img src=".svg" alt="userfollowers"> 286 Photos and videos</strong>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>                    
+                </ul>            
+            </div>
+        </aside>
+
+
+        <section class="timeline">
+            <nav>
+                <a href="" class="active">Tweets</a>
+                <a href="">Tweets and replies</a><a href="">Medias</a>
+            </nav>
+
+            <ul class="tweets">
+             <li>
+                 <img src="/avatar.svg" alt="avatar">
+                 <div class="info">
+                     <strong>Breno Silva <span>@Brenosilva</span></strong>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                     <div class="actions">
+                         <a href=""><img src="/speech.svg" alt=""> 5</a>
+                         <a href=""><img src="/sync.svg" alt=""> 2</a>
+                         <a href=""><img src="/heart.svg" alt=""> 5</a>
+                         <a href=""><img src="/messages.svg" alt=""> 3</a>
+                     </div>
+                 </div>
+             </li>
+
+             <li>
+                <img src="/avatar.svg" alt="avatar">
+                <div class="info">
+                    <strong>Breno Silva <span>@Brenosilva</span></strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                    <div class="actions">
+                        <a href=""><img src="/speech.svg" alt=""> 5</a>
+                        <a href=""><img src="/sync.svg" alt=""> 2</a>
+                        <a href=""><img src="/heart.svg" alt=""> 5</a>
+                        <a href=""><img src="/messages.svg" alt=""> 3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="/avatar.svg" alt="avatar">
+                <div class="info">
+                    <strong>Breno Silva <span>@Brenosilva</span></strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                    <div class="actions">
+                        <a href=""><img src="/speech.svg" alt=""> 5</a>
+                        <a href=""><img src="/sync.svg" alt=""> 2</a>
+                        <a href=""><img src="/heart.svg" alt=""> 5</a>
+                        <a href=""><img src="/messages.svg" alt=""> 3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="/avatar.svg" alt="avatar">
+                <div class="info">
+                    <strong>Breno Silva <span>@Brenosilva</span></strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                    <div class="actions">
+                        <a href=""><img src="/speech.svg" alt=""> 5</a>
+                        <a href=""><img src="/sync.svg" alt=""> 2</a>
+                        <a href=""><img src="/heart.svg" alt=""> 5</a>
+                        <a href=""><img src="/messages.svg" alt=""> 3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="/avatar.svg" alt="avatar">
+                <div class="info">
+                    <strong>Breno Silva <span>@Brenosilva</span></strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                    <div class="actions">
+                        <a href=""><img src="/speech.svg" alt=""> 5</a>
+                        <a href=""><img src="/sync.svg" alt=""> 2</a>
+                        <a href=""><img src="/heart.svg" alt=""> 5</a>
+                        <a href=""><img src="/messages.svg" alt=""> 3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="/avatar.svg" alt="avatar">
+                <div class="info">
+                    <strong>Breno Silva <span>@Brenosilva</span></strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                    <div class="actions">
+                        <a href=""><img src="/speech.svg" alt=""> 5</a>
+                        <a href=""><img src="/sync.svg" alt=""> 2</a>
+                        <a href=""><img src="/heart.svg" alt=""> 5</a>
+                        <a href=""><img src="/messages.svg" alt=""> 3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="/avatar.svg" alt="avatar">
+                <div class="info">
+                    <strong>Breno Silva <span>@Brenosilva</span></strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                    <div class="actions">
+                        <a href=""><img src="/speech.svg" alt=""> 5</a>
+                        <a href=""><img src="/sync.svg" alt=""> 2</a>
+                        <a href=""><img src="/heart.svg" alt=""> 5</a>
+                        <a href=""><img src="/messages.svg" alt=""> 3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="/avatar.svg" alt="avatar">
+                <div class="info">
+                    <strong>Breno Silva <span>@Brenosilva</span></strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                    <div class="actions">
+                        <a href=""><img src="/speech.svg" alt=""> 5</a>
+                        <a href=""><img src="/sync.svg" alt=""> 2</a>
+                        <a href=""><img src="/heart.svg" alt=""> 5</a>
+                        <a href=""><img src="/messages.svg" alt=""> 3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="/avatar.svg" alt="avatar">
+                <div class="info">
+                    <strong>Breno Silva <span>@Brenosilva</span></strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                    <div class="actions">
+                        <a href=""><img src="/speech.svg" alt=""> 5</a>
+                        <a href=""><img src="/sync.svg" alt=""> 2</a>
+                        <a href=""><img src="/heart.svg" alt=""> 5</a>
+                        <a href=""><img src="/messages.svg" alt=""> 3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="/avatar.svg" alt="avatar">
+                <div class="info">
+                    <strong>Breno Silva <span>@Brenosilva</span></strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                    <div class="actions">
+                        <a href=""><img src="/speech.svg" alt=""> 5</a>
+                        <a href=""><img src="/sync.svg" alt=""> 2</a>
+                        <a href=""><img src="/heart.svg" alt=""> 5</a>
+                        <a href=""><img src="/messages.svg" alt=""> 3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="/avatar.svg" alt="avatar">
+                <div class="info">
+                    <strong>Breno Silva <span>@Brenosilva</span></strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                    <div class="actions">
+                        <a href=""><img src="/speech.svg" alt=""> 5</a>
+                        <a href=""><img src="/sync.svg" alt=""> 2</a>
+                        <a href=""><img src="/heart.svg" alt=""> 5</a>
+                        <a href=""><img src="/messages.svg" alt=""> 3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="/avatar.svg" alt="avatar">
+                <div class="info">
+                    <strong>Breno Silva <span>@Brenosilva</span></strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quae quo ratione expedita.</p>
+                    <div class="actions">
+                        <a href=""><img src="/speech.svg" alt=""> 5</a>
+                        <a href=""><img src="/sync.svg" alt=""> 2</a>
+                        <a href=""><img src="/heart.svg" alt=""> 5</a>
+                        <a href=""><img src="/messages.svg" alt=""> 3</a>
+                    </div>
+                </div>
+            </li>
+            
+            </ul>
+
+            
+        </section>
+
+        <aside class="widgets">
+            <div class="widget follow">
+                <div class="title">
+                    <strong>Who to follow</strong>
+                    <a href="">Refresh</a>
+                    <a href="">View all</a>  
+                </div>
+
+                <ul>
+                    <li>
+                        <div class="profile">
+                            <img src="/avatar.svg" alt="avatar">
+                            <div class="info">
+                                <strong>Spade <span>@spade</span></strong>
+                                <button>Follow</button>
+                            </div>
+                        </div>                    
+                        <a href="">X</a>
+                    </li>
+
+                    <li>
+                        <div class="profile">
+                            <img src="/avatar.svg" alt="avatar">
+                            <div class="info">
+                                <strong>Spade <span>@spade</span></strong>
+                                <button>Follow</button>
+                            </div>
+                        </div>                    
+                        <a href="">X</a>
+                    </li>
+
+                    <li>
+                        <div class="profile">
+                            <img src="/avatar.svg" alt="avatar">
+                            <div class="info">
+                                <strong>Spade <span>@spade</span></strong>
+                                <button>Follow</button>
+                            </div>
+                        </div>                    
+                        <a href="">X</a>
+                    </li>
+
+                    
+                </ul>
+                <div class="friends">
+                    <img src="/home.svg" alt="home">
+                    <span>Find friends</span>
+                </div>
+
+
+            </div>
+
+            <div class="widget trends">
+                <div class="title">
+                    <strong>Trends</strong>
+                    <a href="">Change</a> 
+                </div>
+                <ul>
+                    <li>#UXDesign</li>
+                    <li>#UIDesign</li>
+                    <li>#Sports</li>
+                    <li>#BOLSONAROVTNC</li>
+                    <li>#Infoday</li>
+                </ul>
+
+            </div>
+            
+        </aside>
+
+    </div>
 </body>
 </html>
